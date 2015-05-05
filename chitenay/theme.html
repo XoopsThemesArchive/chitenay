@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_themecss}>" />
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Start Header -->
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr> 
+<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr> 
+<td width="205" align="center" valign="middle"><img src="<{$xoops_imageurl}>logo.gif" width="205" height="110" /> 
+</td>
+<td align="center" valign="middle"> <table width="468" height="60" border="0" cellpadding="0" cellspacing="5">
+<tr> 
+<td align="center" valign="middle"><{$xoops_banner}></td>
+</tr>
+</table></td>
+<td width="144" align="center" valign="middle"><img src="<{$xoops_imageurl}>chataigne_logo%5B1%5D.gif" width="144" height="74" /></td>
+</tr>
+</table></td>
+</tr>
+<tr> 
+<td height="29" align="center" valign="middle" background="<{$xoops_imageurl}>barre_ menu_11.gif"> 
+<table border="0" cellpadding="0" cellspacing="0" width="755" class="menuhor">
+<tr> 
+<td width="11"><img src="<{$xoops_imageurl}>barre_menu_01.gif" alt="" name="barre20menu_01" width="11" height="29" border="0" id="barre20menu_01" /></td>
+<td width="27"><a href="<{$xoops_url}>"><img src="<{$xoops_imageurl}>barre_menu_02.gif" alt="" name="barre20menu_02" width="27" height="29" border="0" id="barre20menu_02" /></a></td>
+<td width="93" align="center" valign="bottom"><a href="<{$xoops_url}>">Accueil</a></td>
+<td width="27"><a href="<{$xoops_url}>/modules/eCal/"><img src="<{$xoops_imageurl}>barre_menu_04.gif" alt="" name="barre20menu_04" width="27" height="29" border="0" id="barre20menu_04" /></a></td>
+<td width="93" align="center" valign="bottom"><a href="<{$xoops_url}>/modules/eCal/">Agenda</a></td>
+<td width="27"><a href="<{$xoops_url}>/modules/news/article.php?storyid=31"><img src="<{$xoops_imageurl}>barre_menu_04.gif" alt="" name="barre20menu_04" width="27" height="29" border="0" id="barre20menu_04" /></a></td>
+<td width="93" align="center" valign="bottom"><a href="<{$xoops_url}>/modules/news/article.php?storyid=31">Bonnes adresses</a></td>
+<td width="27"><a href="<{$xoops_url}>/modules/news/index.php?storytopic=5"><img src="<{$xoops_imageurl}>barre_menu_04.gif" alt="" name="barre20menu_04" width="27" height="29" border="0" id="barre20menu_04" /></a></td>
+<td width="93" align="center" valign="bottom"><a href="<{$xoops_url}>/modules/news/index.php?storytopic=5">Tourisme</a></td>
+<td width="27"><a href="<{$xoops_url}>/modules/liaise/"><img src="<{$xoops_imageurl}>barre_menu_04.gif" alt="" name="barre20menu_04" width="27" height="29" border="0" id="barre20menu_04" /></a></td>
+<td width="93" align="center" valign="bottom"><a href="<{$xoops_url}>/modules/liaise/">Contacts</a></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<!-- End Header -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr> 
+<td width="160" valign="top" align="center" class="leftcolumn"><br /> <div class="leftcolumn"> 
+<!-- Start left blocks loop -->
+<{foreach item=block from=$xoops_lblocks}> <{include file="chitenay/theme_blockleft.html"}> 
+<{/foreach}> 
+<!-- Fim do "loop" dos blocos da esquerda -->
+</div></td>
+<td width="100%" valign="top" class="contentbox"><br /> 
+<!-- Display center blocks if any -->
+<{if $xoops_showcblock == 1}> 
+<!-- End display center blocks -->
+<table cellpadding="3" cellspacing="3" align="center" width="100%">
+<tr> 
+<td class="centercolumn" valign="top" colspan="2"> <div class="centercolumn"> 
+<!-- Start center-center blocks loop -->
+<{foreach item=block from=$xoops_ccblocks}> <{include file="chitenay/theme_blockcenter_c.html"}> 
+<br />
+<{/foreach}> 
+<!-- End center-center blocks loop -->
+</div></td>
+</tr>
+</table>
+<table cellpadding="3" cellspacing="0" align="center">
+<tr> 
+<td class="centerLcolumn" valign="top"> <div class="centerLcolumn"> 
+<!-- Start center-left blocks loop -->
+<{foreach item=block from=$xoops_clblocks}> <{include file="chitenay/theme_blockcenter_l.html"}> 
+<br />
+<{/foreach}> 
+<!-- End center-left blocks loop -->
+</div></td>
+<td class="centerRcolumn" valign="top"> <div class="centerRcolumn"> 
+<!-- Start center-right blocks loop -->
+<{foreach item=block from=$xoops_crblocks}> <{include file="chitenay/theme_blockcenter_r.html"}> 
+<br />
+<{/foreach}> 
+<!-- End center-right blocks loop -->
+</div></td>
+</tr>
+</table>
+<{/if}> <br /> <div class="content"> <{$xoops_contents}> </div>
+<br /> </td>
+<{if $xoops_showrblock == 1}> 
+<td align="center" valign="top" class="rightcolumn" width="160"><br />
+<div class="rightcolumn"> 
+<!-- Início dos blocos da direita -->
+<{foreach item=block from=$xoops_rblocks}> <{include file="chitenay/theme_blockright.html"}> 
+<{/foreach}> 
+<!-- End right blocks loop -->
+</div></td>
+<{else}> 
+<{/if}> </tr>
+<tr> 
+<td colspan="3" class="footer"> <table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr> 
+<td width="160" align="left" valign="middle"><a href="http://www.latelier12.com" target="_blank"><font size="1">Design 
+: Latelier12&nbsp;</font></a></td>
+<td align="center">&nbsp;<span class="copyright"><{$xoops_footer}></span></td>
+</tr>
+</table></td>
+</tr>
+</table>
+</body>
+</HTML>
